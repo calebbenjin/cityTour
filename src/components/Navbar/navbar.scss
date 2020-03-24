@@ -17,13 +17,17 @@
   margin-top: 10px;
 }
 
-.nav-links .nav-link {
+.nav-link {
   margin-right: 4rem;
   color: $mainWhite;
   font-size: 1.2rem;
   text-decoration: none;
+  transition: all 0.5s linear;
+  &:hover {
+    color: $mainGreen;
+  }
 }
 
-.nav-links .nav-link:hover {
+.active {
   color: $mainGreen;
 }
